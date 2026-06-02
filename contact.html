@@ -7,17 +7,21 @@
 </head>
 <body>
     <h1>inquiries and requests</h1>
-    <h2>currently non-functional email me any inqueries while this page is being built</h2>
+    <h2>currently non-functional: email me any inqueries while this page is being built</h2>
     <form>
-        <label for="email">contact email</label><br>
+        <label for="email">Contact Email</label><br>
         <input type="email" id="email" name="email" required><br><br>
-        <div>what are you contacting me about</div>
+        <input type="radio" id="personal" name="emailtype" value="personal"><label for="personal">Individual</label>
+        <input type="radio" id="company" name="emailtype" value="company"><label for="company">Company</label><br><br>
+        <div>Reason for Contact</div>
         <input type="checkbox" id="employment" name="employment" value="employment"><label for="employment">Job Offer</label>
         <input type="checkbox" id="commission" name="commission" value="commission"><label for="commission">Commission</label>
-        <input type="checkbox" id="advising" name="advising" value="advising"><label for="advising">Advising</label>
-        <label for ="comment">comment</label><br>
-        <input type="text" id="comment" name="comment" value="what are you contacting me about."><br>
+        <input type="checkbox" id="advising" name="advising" value="advising"><label for="advising">Advising</label><br><br>
+        <label for ="comment">Comment</label><br>
+        <input type="text" id="comment" name="comment" value="Details Here"><br>
         <input type="submit">
+        <input type="reset">
     </form>
+    <div><a href="index.html">Home</a></div>
 </body>
 </html>
