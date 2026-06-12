@@ -1,0 +1,16 @@
+.video-class {
+  position: relative; 
+  width: 75%;
+  height: 0; 
+  overflow: hidden; 
+  padding-bottom: 56.25%; 
+}
+
+.video-class iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
