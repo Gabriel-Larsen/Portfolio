@@ -1,12 +1,12 @@
-.video-container {
+.video-class {
   position: relative; 
-  width: 100%;
+  width: 75%;
   height: 0; 
   overflow: hidden; 
   padding-bottom: 56.25%; 
 }
 
-.video-container iframe {
+.video-class iframe {
   position: absolute;
   top: 0;
   left: 0;
