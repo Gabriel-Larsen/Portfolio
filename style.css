@@ -16,5 +16,5 @@
 }
 #page {display: grid; grid-template-columns: auto;}
 .navigation {grid-column: 1; grid-row: 1; max-width: 100%; height: auto;}
-#content{grid-column: 2; grid-row: 1; display: inline-block; color:sienna; font-style: bold; background-image: url("img/silverslip.jpg"); justify-content: left;}
+#content{grid-column: 2; grid-row: 1; display: flex; color:sienna; font-style: bold; background-image: url("img/silverslip.jpg"); align-items: left; justify-content: left;}
 a {font-style: bold; color:blue; background-color: white;}
